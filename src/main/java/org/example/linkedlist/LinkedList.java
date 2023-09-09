@@ -187,4 +187,9 @@ public class LinkedList<T> {
     public boolean insert(T value, int index) {
         return this.insertNode(new LinkedListNode<T>(value), index);
     }
+
+    public LinkedList<T> reverse() {
+//        TODO: Implement reverse
+        return null;
+    }
 }
