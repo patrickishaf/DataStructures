@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61333490-13b7-43d7-a82b-efbe1c179ec4" name="Changes" comment="create doubly linked list">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="61333490-13b7-43d7-a82b-efbe1c179ec4" name="Changes" comment="complete doubly linkedlist except reverse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/doublylinkedlist/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/doublylinkedlist/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694224677580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="complete doubly linkedlist except reverse">
+      <created>1694231457897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694231457897</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +126,23 @@
     <MESSAGE value="complete linked list" />
     <MESSAGE value="initial setup for Ring" />
     <MESSAGE value="create doubly linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="create doubly linked list" />
+    <MESSAGE value="complete doubly linkedlist except reverse" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete doubly linkedlist except reverse" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.OutOfMemoryError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="head" language="JAVA" />
+        <watch expression="tail" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

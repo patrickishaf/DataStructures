@@ -188,8 +188,32 @@ public class LinkedList<T> {
         return this.insertNode(new LinkedListNode<T>(value), index);
     }
 
+    private void swapHeadAndTail() {
+        LinkedListNode<T> temp = this.tail;
+        this.tail = this.head;
+        this.head = temp;
+    }
+
     public LinkedList<T> reverse() {
-//        TODO: Implement reverse
-        return null;
+        LinkedListNode<T> prev = this.head;
+        LinkedListNode<T> current = this.head;
+        LinkedListNode<T> next = this.head.getNext();
+        int lastIterationIndex = this.length - 2;
+        for (int i = 0; i < this.length; i++) {
+            if (i != 0) {
+                prev = current;
+            }
+            current = next;
+            if (i == lastIterationIndex) {
+                this.tail.setNext(current);
+                current.setNext(null);
+            } else {
+                next = next.getNext();
+                current.setNext(prev);
+            }
+        }
+        this.head.setNext(null);
+        this.swapHeadAndTail();
+        return this;
     }
 }
